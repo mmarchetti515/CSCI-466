@@ -1,0 +1,49 @@
+Entities
+==========================
+- Employees
+	- Employees have the attributes of emp_id, which is the key identifier,
+		job title, specialty, pay rate, and name. All of these are traits
+		that describe an employee object and are necessary for the db. 
+		All of the attributes are self descriptive of their function.
+- Clients
+	- Clients have the attributes of account_id, and email, which are the 
+		key identifiers. They also have name, address, and phone number
+		as suppplemental identifiers. These are all self descriptive of
+		their function.	
+- Services_offered
+	- Services_offered have the attributes service_sku, which is the key 
+		identifier, manicures, massages, waxes, makeup, hair, and price. These
+		are all of the service packages offered. The price is unique for each
+		individual service.
+- Schedule
+	- Schedule has the key identifier, emp_link, and the other attributes of
+		date and time. emp_link is how the schedule is linked to an employee
+		through their employee id.
+Relationships
+=========================
+- orders
+	- This has a 1,1 cardinality from clients, as in this situation, a client
+		will only be making one order, and if there are multiple orders from 
+		a single client, they will be handled under different appointment_id.
+	- This has a 1, n cardinality to services_offered, since an order can contain 
+		multiple services. 
+	- This relationship also has the attributes, appointment_id, and 
+		invoice_number, both of which are the key identifiers, and bill, and
+		services_requested. These supplementary attributes are critical for
+		this relationship.
+	- This and the attributes linked allow the client to be automatically billed.
+	- Appointment information allows the client to be reminded of their
+		appointment date.
+- performs
+	- This has a 1,1 cardinality from employees, since only one employee will
+		do the action of performing for a single appointment.
+	- This has a 1,n cardinality to services_offered, since potentially many 
+		services can be performed for one appointment. 
+	- Employees can perform any service.
+- requests
+	- This has a 1,1 cardinality from clients, as a client will only be making a
+		single request for a single appointment in this case.
+	- This has a 1,1 cardinality to employees, as only one request will be for 
+		one employee, assuming, in this case, that only one employee handles 
+		one client, per appointment.
+	- This allows a client to choose a preffered employee.
