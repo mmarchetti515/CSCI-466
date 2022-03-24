@@ -1,0 +1,55 @@
+h1.headerCenter{
+    text-align: center;
+    color:chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+}
+
+.center{
+    text-align: center;
+    color:chartreuse;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img.spotify{
+    filter: invert(91%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+h3.headerCenter{
+    text-align: center;
+    color:chartreuse;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.zoom{
+    padding: 40px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+.zoom:hover{
+    transform: scale(1.1); 
+}
+
+.bubble{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    border: 8px solid rgb(25, 25, 25);
+    border-radius: 5px;
+    background-color:rgb(25, 25, 25);
+    justify-content: center;
+}
+
+.tablecenter{
+    text-align: center;
+    color:chartreuse;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: auto;
+    margin-right: auto;
+}
