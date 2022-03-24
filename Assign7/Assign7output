@@ -1,0 +1,375 @@
+MariaDB [BabyName]> \. Assign7Script.sql
+Database changed
++--------------------+
+| Tables_in_BabyName |
++--------------------+
+| BabyName           |
++--------------------+
+1 row in set (0.000 sec)
+
++-------------+------+
+| name        | year |
++-------------+------+
+| Aadam       | 2000 |
+| Aadarsh     | 2000 |
+| Aadil       | 2000 |
+| Aaditya     | 2000 |
+| Aahil       | 2000 |
+| Aailyah     | 2000 |
+| Aaisha      | 2000 |
+| Aakash      | 2000 |
+| Aakilah     | 2000 |
+| Aalayah     | 2000 |
+| Aaleah      | 2000 |
+| Aaleigha    | 2000 |
+| Aalexis     | 2000 |
+| Aaleyah     | 2000 |
+| Aalia       | 2000 |
+| Aaliah      | 2000 |
+| Aaliayh     | 2000 |
+| Aaliya      | 2000 |
+| Aaliyah     | 2000 |
+| Aaliyaha    | 2000 |
+| Aaliyha     | 2000 |
+| Aalliyah    | 2000 |
+| Aalyah      | 2000 |
+| Aalyiah     | 2000 |
+| Aalyssa     | 2000 |
+| Aamina      | 2000 |
+| Aaminah     | 2000 |
+| Aamir       | 2000 |
+| Aamna       | 2000 |
+| Aanchal     | 2000 |
+| Aaniya      | 2000 |
+| Aaniyah     | 2000 |
+| Aanya       | 2000 |
+| Aaran       | 2000 |
+| Aaren       | 2000 |
+| Aareon      | 2000 |
+| Aarian      | 2000 |
+| Aariana     | 2000 |
+| Aaric       | 2000 |
+| Aarica      | 2000 |
+| Aarik       | 2000 |
+| Aarika      | 2000 |
+| Aarin       | 2000 |
+| Aarion      | 2000 |
+| Aariona     | 2000 |
+| Aarionna    | 2000 |
+| Aaron       | 2000 |
+| Aaronisha   | 2000 |
+| Aaronjacob  | 2000 |
+| Aaronjoshua | 2000 |
++-------------+------+
+50 rows in set (0.000 sec)
+
++--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| name   | varchar(15) | NO   | PRI | NULL    |       |
+| count  | int(11)     | YES  |     | NULL    |       |
+| gender | char(1)     | NO   | PRI | NULL    |       |
+| year   | smallint(6) | NO   | PRI | NULL    |       |
+| place  | char(2)     | NO   | PRI | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+5 rows in set (0.001 sec)
+
++---------+------+
+| name    | year |
++---------+------+
+| Michael | 1897 |
+| Michael | 1906 |
+| Michael | 1909 |
+| Michael | 1910 |
+| Michael | 1911 |
+| Michael | 1912 |
+| Michael | 1913 |
+| Michael | 1914 |
+| Michael | 1915 |
+| Michael | 1916 |
+| Michael | 1917 |
+| Michael | 1918 |
+| Michael | 1919 |
+| Michael | 1920 |
+| Michael | 1921 |
+| Michael | 1922 |
+| Michael | 1923 |
+| Michael | 1924 |
+| Michael | 1925 |
+| Michael | 1926 |
+| Michael | 1927 |
+| Michael | 1928 |
+| Michael | 1929 |
+| Michael | 1930 |
+| Michael | 1931 |
+| Michael | 1932 |
+| Michael | 1933 |
+| Michael | 1934 |
+| Michael | 1935 |
+| Michael | 1936 |
+| Michael | 1937 |
+| Michael | 1938 |
+| Michael | 1939 |
+| Michael | 1940 |
+| Michael | 1941 |
+| Michael | 1942 |
+| Michael | 1943 |
+| Michael | 1944 |
+| Michael | 1945 |
+| Michael | 1946 |
+| Michael | 1947 |
+| Michael | 1948 |
+| Michael | 1949 |
+| Michael | 1950 |
+| Michael | 1951 |
+| Michael | 1952 |
+| Michael | 1953 |
+| Michael | 1954 |
+| Michael | 1955 |
+| Michael | 1956 |
++---------+------+
+50 rows in set (0.000 sec)
+
++-------+-------+
+| place | COUNT |
++-------+-------+
+| AK    |  1583 |
+| AL    |  6501 |
+| AR    |  4825 |
+| AZ    |  5500 |
+| CA    | 18986 |
+| CO    |  4953 |
+| CT    |  3531 |
+| DC    |  2622 |
+| DE    |  1677 |
+| FL    | 10820 |
+| GA    |  9467 |
+| HI    |  2870 |
+| IA    |  4257 |
+| ID    |  2874 |
+| IL    | 10847 |
+| IN    |  6392 |
+| KS    |  4359 |
+| KY    |  5178 |
+| LA    |  6957 |
+| MA    |  5185 |
+| MD    |  5455 |
+| ME    |  2146 |
+| MI    |  8567 |
+| MN    |  5374 |
+| MO    |  6301 |
+| MS    |  5486 |
+| MT    |  2188 |
+| NC    |  8598 |
+| ND    |  2282 |
+| NE    |  3383 |
+| NH    |  1756 |
+| NJ    |  7428 |
+| NM    |  3333 |
+| NV    |  2861 |
+| NY    | 14101 |
+| OH    |  9066 |
+| OK    |  5548 |
+| OR    |  4143 |
+| PA    |  8851 |
+| RI    |  1795 |
+| SC    |  5632 |
+| SD    |  2289 |
+| TN    |  6750 |
+| TX    | 16768 |
+| US    | 95025 |
+| UT    |  4489 |
+| VA    |  7093 |
+| VT    |  1358 |
+| WA    |  5922 |
+| WI    |  5369 |
+| WV    |  3261 |
+| WY    |  1524 |
++-------+-------+
+52 rows in set (0.000 sec)
+
++-------------+-------+------+
+| name        | count | year |
++-------------+-------+------+
+| Michael     | 67991 | 1983 |
+| Christopher | 59336 | 1983 |
+| Jennifer    | 54336 | 1983 |
+| Matthew     | 50204 | 1983 |
+| Jessica     | 45278 | 1983 |
+| David       | 39192 | 1983 |
+| Joshua      | 36703 | 1983 |
+| James       | 36341 | 1983 |
+| Jason       | 35106 | 1983 |
+| Daniel      | 34743 | 1983 |
+| Amanda      | 33754 | 1983 |
+| Ashley      | 33290 | 1983 |
+| John        | 33146 | 1983 |
+| Robert      | 32743 | 1983 |
+| Joseph      | 30446 | 1983 |
+| Justin      | 28296 | 1983 |
+| Ryan        | 27837 | 1983 |
+| Sarah       | 27229 | 1983 |
+| Brian       | 26064 | 1983 |
+| Andrew      | 25570 | 1983 |
+| William     | 25384 | 1983 |
+| Brandon     | 23515 | 1983 |
+| Adam        | 23482 | 1983 |
+| Melissa     | 23473 | 1983 |
+| Jonathan    | 22744 | 1983 |
+| Nicole      | 22394 | 1983 |
+| Stephanie   | 22326 | 1983 |
+| Heather     | 20750 | 1983 |
+| Eric        | 20341 | 1983 |
+| Nicholas    | 19891 | 1983 |
+| Elizabeth   | 19838 | 1983 |
+| Anthony     | 19827 | 1983 |
+| Steven      | 18310 | 1983 |
+| Crystal     | 17904 | 1983 |
+| Thomas      | 17562 | 1983 |
+| Kevin       | 17376 | 1983 |
+| Amy         | 17095 | 1983 |
+| Michelle    | 16830 | 1983 |
+| Timothy     | 16357 | 1983 |
+| Tiffany     | 15960 | 1983 |
+| Richard     | 15892 | 1983 |
+| Jeffrey     | 15650 | 1983 |
+| Kimberly    | 15371 | 1983 |
+| Christina   | 15360 | 1983 |
+| Amber       | 14887 | 1983 |
+| Erin        | 14835 | 1983 |
+| Rebecca     | 14711 | 1983 |
+| Rachel      | 14588 | 1983 |
+| Aaron       | 14457 | 1983 |
+| Jeremy      | 14255 | 1983 |
++-------------+-------+------+
+50 rows in set (0.000 sec)
+
++---------+-------+--------+------+-------+
+| name    | count | gender | year | place |
++---------+-------+--------+------+-------+
+| Michael | 92726 | M      | 1957 | US    |
+| Michael | 90623 | M      | 1956 | US    |
+| Michael | 90517 | M      | 1958 | US    |
+| Michael | 88493 | M      | 1954 | US    |
+| Michael | 88286 | M      | 1955 | US    |
+| Michael | 86922 | M      | 1961 | US    |
+| Michael | 85318 | M      | 1970 | US    |
+| Michael | 85275 | M      | 1959 | US    |
+| Michael | 85235 | M      | 1969 | US    |
+| Michael | 85049 | M      | 1962 | US    |
+| Michael | 84202 | M      | 1960 | US    |
+| Michael | 84201 | M      | 1953 | US    |
+| Michael | 83796 | M      | 1963 | US    |
+| Michael | 82671 | M      | 1964 | US    |
+| Michael | 82455 | M      | 1967 | US    |
+| Michael | 82019 | M      | 1968 | US    |
+| Michael | 81054 | M      | 1965 | US    |
+| Michael | 79999 | M      | 1966 | US    |
+| Michael | 79009 | M      | 1952 | US    |
+| Michael | 77606 | M      | 1971 | US    |
+| Michael | 72769 | M      | 1951 | US    |
+| Michael | 71425 | M      | 1972 | US    |
+| Michael | 68765 | M      | 1981 | US    |
+| Michael | 68673 | M      | 1980 | US    |
+| Michael | 68462 | M      | 1975 | US    |
+| Michael | 68216 | M      | 1982 | US    |
+| Michael | 67991 | M      | 1983 | US    |
+| Michael | 67869 | M      | 1973 | US    |
+| Michael | 67734 | M      | 1979 | US    |
+| Michael | 67731 | M      | 1984 | US    |
+| Michael | 67618 | M      | 1977 | US    |
+| Michael | 67585 | M      | 1974 | US    |
+| Michael | 67154 | M      | 1978 | US    |
+| Michael | 66966 | M      | 1976 | US    |
+| Michael | 65378 | M      | 1989 | US    |
+| Michael | 65275 | M      | 1990 | US    |
+| Michael | 65185 | M      | 1950 | US    |
+| Michael | 64895 | M      | 1985 | US    |
+| Michael | 64188 | M      | 1986 | US    |
+| Michael | 64117 | M      | 1988 | US    |
+| Michael | 63638 | M      | 1987 | US    |
+| Michael | 60783 | M      | 1991 | US    |
+| Michael | 60043 | M      | 1949 | US    |
+| Michael | 54384 | M      | 1992 | US    |
+| Michael | 52566 | M      | 1948 | US    |
+| Michael | 50499 | M      | 1947 | US    |
+| Michael | 49551 | M      | 1993 | US    |
+| Michael | 44462 | M      | 1994 | US    |
+| Michael | 41404 | M      | 1995 | US    |
+| Michael | 41181 | M      | 1946 | US    |
+| Michael | 38364 | M      | 1996 | US    |
+| Michael | 37545 | M      | 1997 | US    |
+| Michael | 36615 | M      | 1998 | US    |
+| Michael | 33906 | M      | 1999 | US    |
+| Michael | 32028 | M      | 2000 | US    |
+| Michael | 29909 | M      | 1945 | US    |
+| Michael | 29677 | M      | 2001 | US    |
+| Michael | 28242 | M      | 2002 | US    |
+| Michael | 27111 | M      | 2003 | US    |
+| Michael | 26728 | M      | 1944 | US    |
+| Michael | 25444 | M      | 2004 | US    |
+| Michael | 24745 | M      | 1943 | US    |
+| Michael | 23800 | M      | 2005 | US    |
+| Michael | 22628 | M      | 2006 | US    |
+| Michael | 21972 | M      | 2007 | US    |
+| Michael | 21726 | M      | 1942 | US    |
+| Michael | 20601 | M      | 2008 | US    |
+| Michael | 18917 | M      | 2009 | US    |
+| Michael | 17324 | M      | 2010 | US    |
+| Michael | 16760 | M      | 2011 | US    |
+| Michael | 16124 | M      | 2012 | US    |
+| Michael | 15931 | M      | 1941 | US    |
+| Michael | 15453 | M      | 2013 | US    |
+| Michael | 15400 | M      | 2014 | US    |
+| Michael | 14321 | M      | 2015 | US    |
+| Michael | 13231 | M      | 1940 | US    |
+| Michael | 10825 | M      | 1939 | US    |
+| Michael |  9251 | M      | 1963 | NY    |
+| Michael |  9206 | M      | 1958 | NY    |
+| Michael |  9115 | M      | 1957 | NY    |
+| Michael |  9077 | M      | 1938 | US    |
+| Michael |  9056 | M      | 1961 | NY    |
+| Michael |  8936 | M      | 1960 | NY    |
+| Michael |  8863 | M      | 1964 | NY    |
+| Michael |  8863 | M      | 1962 | NY    |
+| Michael |  8705 | M      | 1956 | NY    |
+| Michael |  8690 | M      | 1959 | NY    |
+| Michael |  8680 | M      | 1965 | NY    |
+| Michael |  8551 | M      | 1966 | NY    |
+| Michael |  8439 | M      | 1955 | NY    |
+| Michael |  8263 | M      | 1956 | CA    |
+| Michael |  8247 | M      | 1969 | CA    |
+| Michael |  8239 | M      | 1990 | CA    |
+| Michael |  8235 | M      | 1957 | CA    |
+| Michael |  8215 | M      | 1954 | NY    |
+| Michael |  8200 | M      | 1970 | CA    |
+| Michael |  8195 | M      | 1967 | NY    |
+| Michael |  8133 | M      | 1967 | CA    |
+| Michael |  8076 | M      | 1968 | CA    |
+| Michael |  8073 | M      | 1954 | CA    |
++---------+-------+--------+------+-------+
+100 rows in set (0.000 sec)
+
++----------+
+| COUNT(*) |
++----------+
+|  7601706 |
++----------+
+1 row in set (0.000 sec)
+
++------+--------+---------------+
+| year | gender | COUNT(gender) |
++------+--------+---------------+
+| 1972 | F      |         40377 |
+| 1972 | M      |         28615 |
++------+--------+---------------+
+2 rows in set (0.000 sec)
+
++------+----------------------+
+| year | COUNT(DISTINCT name) |
++------+----------------------+
+| 1974 |                14737 |
++------+----------------------+
+1 row in set (0.000 sec)
+
+MariaDB [BabyName]> \t
